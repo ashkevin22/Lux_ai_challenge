@@ -1,0 +1,13 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/Users/kevinash/LUXai/expert/agent.py", line 276, in agent
+    move_direction = action_from_IMM(unit, observation, city_tiles)
+  File "/Users/kevinash/LUXai/expert/agent.py", line 194, in action_from_IMM
+    return new_move(unit, move_to_cell, observation, city_tiles, True)
+  File "/Users/kevinash/LUXai/expert/agent.py", line 180, in new_move
+    avoid_cities.append(unit.id)    
+AttributeError: 'bool' object has no attribute 'append'

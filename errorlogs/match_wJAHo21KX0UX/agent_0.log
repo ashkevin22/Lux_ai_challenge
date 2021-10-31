@@ -1,0 +1,9 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/Users/kevinash/LUXai/currentSub/agent.py", line 192, in agent
+    if len(list(hm_positions)) == 1:
+KeyboardInterrupt

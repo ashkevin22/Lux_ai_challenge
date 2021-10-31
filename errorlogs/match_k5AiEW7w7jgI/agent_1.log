@@ -1,0 +1,10 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 3, in <module>
+    from agent import agent
+  File "/Users/kevinash/LUXai/expert/agent.py", line 247
+    already_building_city True
+                          ^
+SyntaxError: invalid syntax

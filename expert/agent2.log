@@ -1,0 +1,1841 @@
+0 Found worker unaccounted for u_2
+0 Worker Positions {'u_2': (22, 15)}
+0 Found worker w/o resource u_2
+0 IMMEDIATE_moves: {}
+0: Doing research! 
+1 Worker Positions {'u_2': (22, 14)}
+2 Worker Positions {'u_2': (22, 14)}
+2 IMMEDIATE_moves: {}
+2 Enough_mats: True
+2 Build city stuff: c_2, fuel 0.0, size 1, enough fuel False
+3 Worker Positions {'u_2': (22, 15)}
+3 IMMEDIATE_moves: {}
+4 Worker Positions {'u_2': (22, 14)}
+5 Worker Positions {'u_2': (22, 14)}
+5 IMMEDIATE_moves: {}
+5 Enough_mats: True
+5 Build city stuff: c_2, fuel 100.0, size 1, enough fuel False
+6 Worker Positions {'u_2': (22, 15)}
+6 IMMEDIATE_moves: {}
+7 Worker Positions {'u_2': (22, 14)}
+8 Worker Positions {'u_2': (22, 14)}
+8 IMMEDIATE_moves: {}
+8 Enough_mats: True
+8 Build city stuff: c_2, fuel 200.0, size 1, enough fuel False
+9 Worker Positions {'u_2': (22, 15)}
+9 IMMEDIATE_moves: {}
+10 Worker Positions {'u_2': (22, 14)}
+10: Doing research! 
+11 Worker Positions {'u_2': (22, 14)}
+11 IMMEDIATE_moves: {}
+11 Enough_mats: True
+11 Build city stuff: c_2, fuel 300.0, size 1, enough fuel True
+11 We want to build a city tile!
+11: Trying to find tile with count = 1
+11: Found build location:(23, 15)
+11: Navigating to where we wish to build!
+12 Worker Positions {'u_2': (23, 14)}
+13 Worker Positions {'u_2': (23, 14)}
+13 IMMEDIATE_moves: {'u_2': <lux.game_map.Cell object at 0x7ff8c351b550>}
+13: Curr_pos: (23, 15), move_to_cell: (23, 15)
+14 Worker Positions {'u_2': (23, 14)}
+14 IMMEDIATE_moves: {'u_2': <lux.game_map.Cell object at 0x7ff8c351b550>}
+14: popped = c
+14 Building City
+15 Worker Positions {'u_2': (23, 14)}
+15 IMMEDIATE_moves: {}
+15 Enough_mats: True
+15 Build city stuff: c_2, fuel 300.0, size 1, enough fuel True
+15 We want to build a city tile!
+15: Trying to find tile with count = 1
+15: Found build location:(23, 15)
+15: Navigating to where we wish to build!
+16 Worker Positions {'u_2': (23, 15)}
+17 Worker Positions {'u_2': (23, 15)}
+17 IMMEDIATE_moves: {'u_2': <lux.game_map.Cell object at 0x7ff8c3980580>}
+17: popped = s
+18 Worker Positions {'u_2': (23, 16)}
+19 Worker Positions {'u_2': (23, 16)}
+19 IMMEDIATE_moves: {'u_2': <lux.game_map.Cell object at 0x7ff8c3980580>}
+19: Curr_pos: (23, 15), move_to_cell: (23, 15)
+20 Worker Positions {'u_2': (23, 16)}
+20 IMMEDIATE_moves: {'u_2': <lux.game_map.Cell object at 0x7ff8c3980580>}
+20: popped = c
+20 Building City
+20: Doing research! 
+21 Worker Positions {'u_2': (23, 16)}
+21 IMMEDIATE_moves: {}
+21: Created a worker 
+22 Found worker unaccounted for u_4
+22 Worker Positions {'u_2': (23, 15), 'u_4': (23, 16)}
+22 Found worker w/o resource u_4
+22 IMMEDIATE_moves: {}
+22: Collision issues: worker collision
+23 Worker Positions {'u_2': (23, 15), 'u_4': (23, 16)}
+23 IMMEDIATE_moves: {}
+23 IMMEDIATE_moves: {}
+24 Worker Positions {'u_2': (23, 14), 'u_4': (23, 15)}
+25 Worker Positions {'u_2': (23, 14), 'u_4': (23, 15)}
+25 IMMEDIATE_moves: {}
+25 Enough_mats: True
+25 Build city stuff: c_2, fuel 300.0, size 1, enough fuel True
+25 We want to build a city tile!
+25: adj_resources_to_city: 1
+25 Create a new city!
+25: Trying to find tile with count = 1
+25: Found build location:(7, 16)
+25: Navigating to where we wish to build!
+25: Collision issues: worker collision
+25 IMMEDIATE_moves: {'u_2': <lux.game_map.Cell object at 0x7ff8c3983160>}
+26 Worker Positions {'u_2': (22, 14), 'u_4': (23, 14)}
+27 Worker Positions {'u_2': (22, 14), 'u_4': (23, 14)}
+27 IMMEDIATE_moves: {'u_2': <lux.game_map.Cell object at 0x7ff8c3983160>}
+27: popped = n
+27 IMMEDIATE_moves: {'u_2': <lux.game_map.Cell object at 0x7ff8c3983160>}
+27 Enough_mats: True
+27 Build city stuff: c_3, fuel 0.0, size 1, enough fuel False
+28 Worker Positions {'u_2': (22, 13), 'u_4': (23, 15)}
+29 Worker Positions {'u_2': (22, 13), 'u_4': (23, 15)}
+29 IMMEDIATE_moves: {'u_2': <lux.game_map.Cell object at 0x7ff8c3983160>}
+29: Curr_pos: (22, 14), move_to_cell: (7, 16)
+29 IMMEDIATE_moves: {'u_2': <lux.game_map.Cell object at 0x7ff8c3983160>}
+29 Enough_mats: True
+29 Build city stuff: c_2, fuel 300.0, size 1, enough fuel True
+29 We want to build a city tile!
+29: Navigating to where we wish to build!
+29: Collision issues: avoid cities
+30 Worker Positions {'u_2': (22, 13), 'u_4': (23, 15)}
+30 IMMEDIATE_moves: {'u_2': <lux.game_map.Cell object at 0x7ff8c3983160>}
+30: popped = c
+30 Building City
+30 IMMEDIATE_moves: {}
+30 Enough_mats: True
+30 Build city stuff: c_2, fuel 300.0, size 1, enough fuel True
+30 We want to build a city tile!
+30: Too close to night to build new city
+30: Trying to find tile with count = 1
+30: Found build location:(23, 15)
+30 Built the city!
+30: Doing research! 
+31 Worker Positions {'u_2': (22, 13), 'u_4': (23, 15)}
+31 IMMEDIATE_moves: {'u_4': <lux.game_map.Cell object at 0x7ff8c3960430>}
+31: Collision issues: avoid cities
+31: Curr_pos: (23, 15), move_to_cell: (23, 15)
+31: Created a worker 
+31: Created a worker 
+32 Found worker unaccounted for u_5
+32 Found worker unaccounted for u_6
+32 Worker Positions {'u_2': (22, 13), 'u_4': (23, 15), 'u_5': (23, 16), 'u_6': (23, 15)}
+32 Found worker w/o resource u_5
+32 Found worker w/o resource u_6
+32 IMMEDIATE_moves: {'u_4': <lux.game_map.Cell object at 0x7ff8c3960430>}
+32: popped = c
+32 Building City
+32 IMMEDIATE_moves: {}
+32 IMMEDIATE_moves: {}
+33 Worker Positions {'u_2': (22, 13), 'u_4': (23, 15), 'u_5': (23, 15), 'u_6': (23, 14)}
+33 IMMEDIATE_moves: {}
+33: Collision issues: worker collision
+33 IMMEDIATE_moves: {}
+33: Collision issues: worker collision
+34 Worker Positions {'u_2': (22, 13), 'u_6': (23, 14), 'u_4': (23, 15), 'u_5': (23, 15)}
+34 IMMEDIATE_moves: {}
+34: Collision issues: worker collision
+34 IMMEDIATE_moves: {}
+34: Collision issues: worker collision
+35 Worker Positions {'u_2': (22, 13), 'u_6': (23, 14), 'u_4': (23, 15), 'u_5': (23, 16)}
+35 IMMEDIATE_moves: {}
+35: Collision issues: worker collision
+35 IMMEDIATE_moves: {}
+36 Worker Positions {'u_2': (22, 13), 'u_6': (23, 14), 'u_4': (23, 15), 'u_5': (23, 15)}
+36 IMMEDIATE_moves: {}
+36: Collision issues: worker collision
+36 IMMEDIATE_moves: {}
+36: Collision issues: worker collision
+36 IMMEDIATE_moves: {}
+37 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+37 IMMEDIATE_moves: {}
+38 Worker Positions {'u_2': (22, 13), 'u_5': (23, 14), 'u_6': (22, 14), 'u_4': (23, 15)}
+38 IMMEDIATE_moves: {}
+38: Collision issues: worker collision
+39 Worker Positions {'u_2': (22, 13), 'u_5': (23, 14), 'u_6': (22, 14), 'u_4': (23, 16)}
+40 Worker Positions {'u_2': (22, 13), 'u_5': (23, 14), 'u_6': (22, 14), 'u_4': (23, 16)}
+40 IMMEDIATE_moves: {}
+40 IMMEDIATE_moves: {}
+41 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+41 IMMEDIATE_moves: {}
+41 Enough_mats: True
+41: Unit error list index out of range 
+41 IMMEDIATE_moves: {}
+41 Enough_mats: True
+42 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+42 IMMEDIATE_moves: {}
+42 Enough_mats: True
+42: Unit error list index out of range 
+42 IMMEDIATE_moves: {}
+42 Enough_mats: True
+43 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+43 IMMEDIATE_moves: {}
+43 Enough_mats: True
+43: Unit error list index out of range 
+43 IMMEDIATE_moves: {}
+43 Enough_mats: True
+44 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+44 IMMEDIATE_moves: {}
+44 Enough_mats: True
+44: Unit error list index out of range 
+44 IMMEDIATE_moves: {}
+44 Enough_mats: True
+45 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+45 IMMEDIATE_moves: {}
+45 Enough_mats: True
+45: Unit error list index out of range 
+45 IMMEDIATE_moves: {}
+45 Enough_mats: True
+46 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+46 IMMEDIATE_moves: {}
+46 Enough_mats: True
+46: Unit error list index out of range 
+46 IMMEDIATE_moves: {}
+46 Enough_mats: True
+47 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+47 IMMEDIATE_moves: {}
+47 Enough_mats: True
+47: Unit error list index out of range 
+47 IMMEDIATE_moves: {}
+47 Enough_mats: True
+48 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+48 IMMEDIATE_moves: {}
+48 Enough_mats: True
+48: Unit error list index out of range 
+48 IMMEDIATE_moves: {}
+48 Enough_mats: True
+49 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+49 IMMEDIATE_moves: {}
+49 Enough_mats: True
+49: Unit error list index out of range 
+49 IMMEDIATE_moves: {}
+49 Enough_mats: True
+50 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+50 IMMEDIATE_moves: {}
+50 Enough_mats: True
+50: Unit error list index out of range 
+50 IMMEDIATE_moves: {}
+50 Enough_mats: True
+51 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+51 IMMEDIATE_moves: {}
+51 Enough_mats: True
+51: Unit error list index out of range 
+51 IMMEDIATE_moves: {}
+51 Enough_mats: True
+52 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+52 IMMEDIATE_moves: {}
+52 Enough_mats: True
+52: Unit error list index out of range 
+52 IMMEDIATE_moves: {}
+52 Enough_mats: True
+53 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+53 IMMEDIATE_moves: {}
+53 Enough_mats: True
+53: Unit error list index out of range 
+53 IMMEDIATE_moves: {}
+53 Enough_mats: True
+54 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+54 IMMEDIATE_moves: {}
+54 Enough_mats: True
+54: Unit error list index out of range 
+54 IMMEDIATE_moves: {}
+54 Enough_mats: True
+55 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+55 IMMEDIATE_moves: {}
+55 Enough_mats: True
+55: Unit error list index out of range 
+55 IMMEDIATE_moves: {}
+55 Enough_mats: True
+56 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+56 IMMEDIATE_moves: {}
+56 Enough_mats: True
+56: Unit error list index out of range 
+56 IMMEDIATE_moves: {}
+56 Enough_mats: True
+57 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+57 IMMEDIATE_moves: {}
+57 Enough_mats: True
+57: Unit error list index out of range 
+57 IMMEDIATE_moves: {}
+57 Enough_mats: True
+58 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+58 IMMEDIATE_moves: {}
+58 Enough_mats: True
+58: Unit error list index out of range 
+58 IMMEDIATE_moves: {}
+58 Enough_mats: True
+59 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+59 IMMEDIATE_moves: {}
+59 Enough_mats: True
+59: Unit error list index out of range 
+59 IMMEDIATE_moves: {}
+59 Enough_mats: True
+60 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+60 IMMEDIATE_moves: {}
+60 Enough_mats: True
+60: Unit error list index out of range 
+60 IMMEDIATE_moves: {}
+60 Enough_mats: True
+61 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+61 IMMEDIATE_moves: {}
+61 Enough_mats: True
+61: Unit error list index out of range 
+61 IMMEDIATE_moves: {}
+61 Enough_mats: True
+62 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+62 IMMEDIATE_moves: {}
+62 Enough_mats: True
+62: Unit error list index out of range 
+62 IMMEDIATE_moves: {}
+62 Enough_mats: True
+63 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+63 IMMEDIATE_moves: {}
+63 Enough_mats: True
+63: Unit error list index out of range 
+63 IMMEDIATE_moves: {}
+63 Enough_mats: True
+64 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+64 IMMEDIATE_moves: {}
+64 Enough_mats: True
+64: Unit error list index out of range 
+64 IMMEDIATE_moves: {}
+64 Enough_mats: True
+65 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+65 IMMEDIATE_moves: {}
+65 Enough_mats: True
+65: Unit error list index out of range 
+65 IMMEDIATE_moves: {}
+65 Enough_mats: True
+66 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+66 IMMEDIATE_moves: {}
+66 Enough_mats: True
+66: Unit error list index out of range 
+66 IMMEDIATE_moves: {}
+66 Enough_mats: True
+67 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+67 IMMEDIATE_moves: {}
+67 Enough_mats: True
+67: Unit error list index out of range 
+67 IMMEDIATE_moves: {}
+67 Enough_mats: True
+68 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+68 IMMEDIATE_moves: {}
+68 Enough_mats: True
+68: Unit error list index out of range 
+68 IMMEDIATE_moves: {}
+68 Enough_mats: True
+69 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+69 IMMEDIATE_moves: {}
+69 Enough_mats: True
+69: Unit error list index out of range 
+69 IMMEDIATE_moves: {}
+69 Enough_mats: True
+70 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+70 IMMEDIATE_moves: {}
+70 Enough_mats: True
+70: Unit error list index out of range 
+70 IMMEDIATE_moves: {}
+70 Enough_mats: True
+71 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+71 IMMEDIATE_moves: {}
+71 IMMEDIATE_moves: {}
+72 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+72 IMMEDIATE_moves: {}
+72 IMMEDIATE_moves: {}
+73 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+73 IMMEDIATE_moves: {}
+73 IMMEDIATE_moves: {}
+74 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+74 IMMEDIATE_moves: {}
+74 IMMEDIATE_moves: {}
+75 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+75 IMMEDIATE_moves: {}
+75 IMMEDIATE_moves: {}
+76 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+76 IMMEDIATE_moves: {}
+76 IMMEDIATE_moves: {}
+77 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+77 IMMEDIATE_moves: {}
+77 IMMEDIATE_moves: {}
+78 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+78 IMMEDIATE_moves: {}
+78 IMMEDIATE_moves: {}
+79 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+79 IMMEDIATE_moves: {}
+79 IMMEDIATE_moves: {}
+80 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+80 IMMEDIATE_moves: {}
+80 IMMEDIATE_moves: {}
+81 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+81 IMMEDIATE_moves: {}
+81 Enough_mats: True
+81: Unit error list index out of range 
+81 IMMEDIATE_moves: {}
+81 Enough_mats: True
+82 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+82 IMMEDIATE_moves: {}
+82 Enough_mats: True
+82: Unit error list index out of range 
+82 IMMEDIATE_moves: {}
+82 Enough_mats: True
+83 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+83 IMMEDIATE_moves: {}
+83 Enough_mats: True
+83: Unit error list index out of range 
+83 IMMEDIATE_moves: {}
+83 Enough_mats: True
+84 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+84 IMMEDIATE_moves: {}
+84 Enough_mats: True
+84: Unit error list index out of range 
+84 IMMEDIATE_moves: {}
+84 Enough_mats: True
+85 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+85 IMMEDIATE_moves: {}
+85 Enough_mats: True
+85: Unit error list index out of range 
+85 IMMEDIATE_moves: {}
+85 Enough_mats: True
+86 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+86 IMMEDIATE_moves: {}
+86 Enough_mats: True
+86: Unit error list index out of range 
+86 IMMEDIATE_moves: {}
+86 Enough_mats: True
+87 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+87 IMMEDIATE_moves: {}
+87 Enough_mats: True
+87: Unit error list index out of range 
+87 IMMEDIATE_moves: {}
+87 Enough_mats: True
+88 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+88 IMMEDIATE_moves: {}
+88 Enough_mats: True
+88: Unit error list index out of range 
+88 IMMEDIATE_moves: {}
+88 Enough_mats: True
+89 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+89 IMMEDIATE_moves: {}
+89 Enough_mats: True
+89: Unit error list index out of range 
+89 IMMEDIATE_moves: {}
+89 Enough_mats: True
+90 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+90 IMMEDIATE_moves: {}
+90 Enough_mats: True
+90: Unit error list index out of range 
+90 IMMEDIATE_moves: {}
+90 Enough_mats: True
+91 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+91 IMMEDIATE_moves: {}
+91 Enough_mats: True
+91: Unit error list index out of range 
+91 IMMEDIATE_moves: {}
+91 Enough_mats: True
+92 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+92 IMMEDIATE_moves: {}
+92 Enough_mats: True
+92: Unit error list index out of range 
+92 IMMEDIATE_moves: {}
+92 Enough_mats: True
+93 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+93 IMMEDIATE_moves: {}
+93 Enough_mats: True
+93: Unit error list index out of range 
+93 IMMEDIATE_moves: {}
+93 Enough_mats: True
+94 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+94 IMMEDIATE_moves: {}
+94 Enough_mats: True
+94: Unit error list index out of range 
+94 IMMEDIATE_moves: {}
+94 Enough_mats: True
+95 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+95 IMMEDIATE_moves: {}
+95 Enough_mats: True
+95: Unit error list index out of range 
+95 IMMEDIATE_moves: {}
+95 Enough_mats: True
+96 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+96 IMMEDIATE_moves: {}
+96 Enough_mats: True
+96: Unit error list index out of range 
+96 IMMEDIATE_moves: {}
+96 Enough_mats: True
+97 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+97 IMMEDIATE_moves: {}
+97 Enough_mats: True
+97: Unit error list index out of range 
+97 IMMEDIATE_moves: {}
+97 Enough_mats: True
+98 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+98 IMMEDIATE_moves: {}
+98 Enough_mats: True
+98: Unit error list index out of range 
+98 IMMEDIATE_moves: {}
+98 Enough_mats: True
+99 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+99 IMMEDIATE_moves: {}
+99 Enough_mats: True
+99: Unit error list index out of range 
+99 IMMEDIATE_moves: {}
+99 Enough_mats: True
+100 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+100 IMMEDIATE_moves: {}
+100 Enough_mats: True
+100: Unit error list index out of range 
+100 IMMEDIATE_moves: {}
+100 Enough_mats: True
+101 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+101 IMMEDIATE_moves: {}
+101 Enough_mats: True
+101: Unit error list index out of range 
+101 IMMEDIATE_moves: {}
+101 Enough_mats: True
+102 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+102 IMMEDIATE_moves: {}
+102 Enough_mats: True
+102: Unit error list index out of range 
+102 IMMEDIATE_moves: {}
+102 Enough_mats: True
+103 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+103 IMMEDIATE_moves: {}
+103 Enough_mats: True
+103: Unit error list index out of range 
+103 IMMEDIATE_moves: {}
+103 Enough_mats: True
+104 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+104 IMMEDIATE_moves: {}
+104 Enough_mats: True
+104: Unit error list index out of range 
+104 IMMEDIATE_moves: {}
+104 Enough_mats: True
+105 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+105 IMMEDIATE_moves: {}
+105 Enough_mats: True
+105: Unit error list index out of range 
+105 IMMEDIATE_moves: {}
+105 Enough_mats: True
+106 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+106 IMMEDIATE_moves: {}
+106 Enough_mats: True
+106: Unit error list index out of range 
+106 IMMEDIATE_moves: {}
+106 Enough_mats: True
+107 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+107 IMMEDIATE_moves: {}
+107 Enough_mats: True
+107: Unit error list index out of range 
+107 IMMEDIATE_moves: {}
+107 Enough_mats: True
+108 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+108 IMMEDIATE_moves: {}
+108 Enough_mats: True
+108: Unit error list index out of range 
+108 IMMEDIATE_moves: {}
+108 Enough_mats: True
+109 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+109 IMMEDIATE_moves: {}
+109 Enough_mats: True
+109: Unit error list index out of range 
+109 IMMEDIATE_moves: {}
+109 Enough_mats: True
+110 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+110 IMMEDIATE_moves: {}
+110 Enough_mats: True
+110: Unit error list index out of range 
+110 IMMEDIATE_moves: {}
+110 Enough_mats: True
+111 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+111 IMMEDIATE_moves: {}
+111 IMMEDIATE_moves: {}
+112 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+112 IMMEDIATE_moves: {}
+112 IMMEDIATE_moves: {}
+113 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+113 IMMEDIATE_moves: {}
+113 IMMEDIATE_moves: {}
+114 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+114 IMMEDIATE_moves: {}
+114 IMMEDIATE_moves: {}
+115 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+115 IMMEDIATE_moves: {}
+115 IMMEDIATE_moves: {}
+116 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+116 IMMEDIATE_moves: {}
+116 IMMEDIATE_moves: {}
+117 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+117 IMMEDIATE_moves: {}
+117 IMMEDIATE_moves: {}
+118 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+118 IMMEDIATE_moves: {}
+118 IMMEDIATE_moves: {}
+119 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+119 IMMEDIATE_moves: {}
+119 IMMEDIATE_moves: {}
+120 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+120 IMMEDIATE_moves: {}
+120 IMMEDIATE_moves: {}
+121 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+121 IMMEDIATE_moves: {}
+121 Enough_mats: True
+121: Unit error list index out of range 
+121 IMMEDIATE_moves: {}
+121 Enough_mats: True
+122 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+122 IMMEDIATE_moves: {}
+122 Enough_mats: True
+122: Unit error list index out of range 
+122 IMMEDIATE_moves: {}
+122 Enough_mats: True
+123 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+123 IMMEDIATE_moves: {}
+123 Enough_mats: True
+123: Unit error list index out of range 
+123 IMMEDIATE_moves: {}
+123 Enough_mats: True
+124 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+124 IMMEDIATE_moves: {}
+124 Enough_mats: True
+124: Unit error list index out of range 
+124 IMMEDIATE_moves: {}
+124 Enough_mats: True
+125 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+125 IMMEDIATE_moves: {}
+125 Enough_mats: True
+125: Unit error list index out of range 
+125 IMMEDIATE_moves: {}
+125 Enough_mats: True
+126 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+126 IMMEDIATE_moves: {}
+126 Enough_mats: True
+126: Unit error list index out of range 
+126 IMMEDIATE_moves: {}
+126 Enough_mats: True
+127 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+127 IMMEDIATE_moves: {}
+127 Enough_mats: True
+127: Unit error list index out of range 
+127 IMMEDIATE_moves: {}
+127 Enough_mats: True
+128 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+128 IMMEDIATE_moves: {}
+128 Enough_mats: True
+128: Unit error list index out of range 
+128 IMMEDIATE_moves: {}
+128 Enough_mats: True
+129 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+129 IMMEDIATE_moves: {}
+129 Enough_mats: True
+129: Unit error list index out of range 
+129 IMMEDIATE_moves: {}
+129 Enough_mats: True
+130 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+130 IMMEDIATE_moves: {}
+130 Enough_mats: True
+130: Unit error list index out of range 
+130 IMMEDIATE_moves: {}
+130 Enough_mats: True
+131 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+131 IMMEDIATE_moves: {}
+131 Enough_mats: True
+131: Unit error list index out of range 
+131 IMMEDIATE_moves: {}
+131 Enough_mats: True
+132 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+132 IMMEDIATE_moves: {}
+132 Enough_mats: True
+132: Unit error list index out of range 
+132 IMMEDIATE_moves: {}
+132 Enough_mats: True
+133 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+133 IMMEDIATE_moves: {}
+133 Enough_mats: True
+133: Unit error list index out of range 
+133 IMMEDIATE_moves: {}
+133 Enough_mats: True
+134 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+134 IMMEDIATE_moves: {}
+134 Enough_mats: True
+134: Unit error list index out of range 
+134 IMMEDIATE_moves: {}
+134 Enough_mats: True
+135 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+135 IMMEDIATE_moves: {}
+135 Enough_mats: True
+135: Unit error list index out of range 
+135 IMMEDIATE_moves: {}
+135 Enough_mats: True
+136 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+136 IMMEDIATE_moves: {}
+136 Enough_mats: True
+136: Unit error list index out of range 
+136 IMMEDIATE_moves: {}
+136 Enough_mats: True
+137 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+137 IMMEDIATE_moves: {}
+137 Enough_mats: True
+137: Unit error list index out of range 
+137 IMMEDIATE_moves: {}
+137 Enough_mats: True
+138 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+138 IMMEDIATE_moves: {}
+138 Enough_mats: True
+138: Unit error list index out of range 
+138 IMMEDIATE_moves: {}
+138 Enough_mats: True
+139 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+139 IMMEDIATE_moves: {}
+139 Enough_mats: True
+139: Unit error list index out of range 
+139 IMMEDIATE_moves: {}
+139 Enough_mats: True
+140 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+140 IMMEDIATE_moves: {}
+140 Enough_mats: True
+140: Unit error list index out of range 
+140 IMMEDIATE_moves: {}
+140 Enough_mats: True
+141 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+141 IMMEDIATE_moves: {}
+141 Enough_mats: True
+141: Unit error list index out of range 
+141 IMMEDIATE_moves: {}
+141 Enough_mats: True
+142 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+142 IMMEDIATE_moves: {}
+142 Enough_mats: True
+142: Unit error list index out of range 
+142 IMMEDIATE_moves: {}
+142 Enough_mats: True
+143 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+143 IMMEDIATE_moves: {}
+143 Enough_mats: True
+143: Unit error list index out of range 
+143 IMMEDIATE_moves: {}
+143 Enough_mats: True
+144 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+144 IMMEDIATE_moves: {}
+144 Enough_mats: True
+144: Unit error list index out of range 
+144 IMMEDIATE_moves: {}
+144 Enough_mats: True
+145 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+145 IMMEDIATE_moves: {}
+145 Enough_mats: True
+145: Unit error list index out of range 
+145 IMMEDIATE_moves: {}
+145 Enough_mats: True
+146 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+146 IMMEDIATE_moves: {}
+146 Enough_mats: True
+146: Unit error list index out of range 
+146 IMMEDIATE_moves: {}
+146 Enough_mats: True
+147 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+147 IMMEDIATE_moves: {}
+147 Enough_mats: True
+147: Unit error list index out of range 
+147 IMMEDIATE_moves: {}
+147 Enough_mats: True
+148 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+148 IMMEDIATE_moves: {}
+148 Enough_mats: True
+148: Unit error list index out of range 
+148 IMMEDIATE_moves: {}
+148 Enough_mats: True
+149 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+149 IMMEDIATE_moves: {}
+149 Enough_mats: True
+149: Unit error list index out of range 
+149 IMMEDIATE_moves: {}
+149 Enough_mats: True
+150 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+150 IMMEDIATE_moves: {}
+150 Enough_mats: True
+150: Unit error list index out of range 
+150 IMMEDIATE_moves: {}
+150 Enough_mats: True
+151 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+151 IMMEDIATE_moves: {}
+151 IMMEDIATE_moves: {}
+152 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+152 IMMEDIATE_moves: {}
+152 IMMEDIATE_moves: {}
+153 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+153 IMMEDIATE_moves: {}
+153 IMMEDIATE_moves: {}
+154 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+154 IMMEDIATE_moves: {}
+154 IMMEDIATE_moves: {}
+155 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+155 IMMEDIATE_moves: {}
+155 IMMEDIATE_moves: {}
+156 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+156 IMMEDIATE_moves: {}
+156 IMMEDIATE_moves: {}
+157 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+157 IMMEDIATE_moves: {}
+157 IMMEDIATE_moves: {}
+158 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+158 IMMEDIATE_moves: {}
+158 IMMEDIATE_moves: {}
+159 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+159 IMMEDIATE_moves: {}
+159 IMMEDIATE_moves: {}
+160 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+160 IMMEDIATE_moves: {}
+160 IMMEDIATE_moves: {}
+161 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+161 IMMEDIATE_moves: {}
+161 Enough_mats: True
+161: Unit error list index out of range 
+161 IMMEDIATE_moves: {}
+161 Enough_mats: True
+162 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+162 IMMEDIATE_moves: {}
+162 Enough_mats: True
+162: Unit error list index out of range 
+162 IMMEDIATE_moves: {}
+162 Enough_mats: True
+163 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+163 IMMEDIATE_moves: {}
+163 Enough_mats: True
+163: Unit error list index out of range 
+163 IMMEDIATE_moves: {}
+163 Enough_mats: True
+164 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+164 IMMEDIATE_moves: {}
+164 Enough_mats: True
+164: Unit error list index out of range 
+164 IMMEDIATE_moves: {}
+164 Enough_mats: True
+165 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+165 IMMEDIATE_moves: {}
+165 Enough_mats: True
+165: Unit error list index out of range 
+165 IMMEDIATE_moves: {}
+165 Enough_mats: True
+166 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+166 IMMEDIATE_moves: {}
+166 Enough_mats: True
+166: Unit error list index out of range 
+166 IMMEDIATE_moves: {}
+166 Enough_mats: True
+167 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+167 IMMEDIATE_moves: {}
+167 Enough_mats: True
+167: Unit error list index out of range 
+167 IMMEDIATE_moves: {}
+167 Enough_mats: True
+168 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+168 IMMEDIATE_moves: {}
+168 Enough_mats: True
+168: Unit error list index out of range 
+168 IMMEDIATE_moves: {}
+168 Enough_mats: True
+169 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+169 IMMEDIATE_moves: {}
+169 Enough_mats: True
+169: Unit error list index out of range 
+169 IMMEDIATE_moves: {}
+169 Enough_mats: True
+170 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+170 IMMEDIATE_moves: {}
+170 Enough_mats: True
+170: Unit error list index out of range 
+170 IMMEDIATE_moves: {}
+170 Enough_mats: True
+171 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+171 IMMEDIATE_moves: {}
+171 Enough_mats: True
+171: Unit error list index out of range 
+171 IMMEDIATE_moves: {}
+171 Enough_mats: True
+172 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+172 IMMEDIATE_moves: {}
+172 Enough_mats: True
+172: Unit error list index out of range 
+172 IMMEDIATE_moves: {}
+172 Enough_mats: True
+173 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+173 IMMEDIATE_moves: {}
+173 Enough_mats: True
+173: Unit error list index out of range 
+173 IMMEDIATE_moves: {}
+173 Enough_mats: True
+174 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+174 IMMEDIATE_moves: {}
+174 Enough_mats: True
+174: Unit error list index out of range 
+174 IMMEDIATE_moves: {}
+174 Enough_mats: True
+175 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+175 IMMEDIATE_moves: {}
+175 Enough_mats: True
+175: Unit error list index out of range 
+175 IMMEDIATE_moves: {}
+175 Enough_mats: True
+176 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+176 IMMEDIATE_moves: {}
+176 Enough_mats: True
+176: Unit error list index out of range 
+176 IMMEDIATE_moves: {}
+176 Enough_mats: True
+177 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+177 IMMEDIATE_moves: {}
+177 Enough_mats: True
+177: Unit error list index out of range 
+177 IMMEDIATE_moves: {}
+177 Enough_mats: True
+178 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+178 IMMEDIATE_moves: {}
+178 Enough_mats: True
+178: Unit error list index out of range 
+178 IMMEDIATE_moves: {}
+178 Enough_mats: True
+179 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+179 IMMEDIATE_moves: {}
+179 Enough_mats: True
+179: Unit error list index out of range 
+179 IMMEDIATE_moves: {}
+179 Enough_mats: True
+180 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+180 IMMEDIATE_moves: {}
+180 Enough_mats: True
+180: Unit error list index out of range 
+180 IMMEDIATE_moves: {}
+180 Enough_mats: True
+181 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+181 IMMEDIATE_moves: {}
+181 Enough_mats: True
+181: Unit error list index out of range 
+181 IMMEDIATE_moves: {}
+181 Enough_mats: True
+182 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+182 IMMEDIATE_moves: {}
+182 Enough_mats: True
+182: Unit error list index out of range 
+182 IMMEDIATE_moves: {}
+182 Enough_mats: True
+183 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+183 IMMEDIATE_moves: {}
+183 Enough_mats: True
+183: Unit error list index out of range 
+183 IMMEDIATE_moves: {}
+183 Enough_mats: True
+184 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+184 IMMEDIATE_moves: {}
+184 Enough_mats: True
+184: Unit error list index out of range 
+184 IMMEDIATE_moves: {}
+184 Enough_mats: True
+185 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+185 IMMEDIATE_moves: {}
+185 Enough_mats: True
+185: Unit error list index out of range 
+185 IMMEDIATE_moves: {}
+185 Enough_mats: True
+186 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+186 IMMEDIATE_moves: {}
+186 Enough_mats: True
+186: Unit error list index out of range 
+186 IMMEDIATE_moves: {}
+186 Enough_mats: True
+187 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+187 IMMEDIATE_moves: {}
+187 Enough_mats: True
+187: Unit error list index out of range 
+187 IMMEDIATE_moves: {}
+187 Enough_mats: True
+188 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+188 IMMEDIATE_moves: {}
+188 Enough_mats: True
+188: Unit error list index out of range 
+188 IMMEDIATE_moves: {}
+188 Enough_mats: True
+189 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+189 IMMEDIATE_moves: {}
+189 Enough_mats: True
+189: Unit error list index out of range 
+189 IMMEDIATE_moves: {}
+189 Enough_mats: True
+190 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+190 IMMEDIATE_moves: {}
+190 Enough_mats: True
+190: Unit error list index out of range 
+190 IMMEDIATE_moves: {}
+190 Enough_mats: True
+191 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+191 IMMEDIATE_moves: {}
+191 IMMEDIATE_moves: {}
+192 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+192 IMMEDIATE_moves: {}
+192 IMMEDIATE_moves: {}
+193 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+193 IMMEDIATE_moves: {}
+193 IMMEDIATE_moves: {}
+194 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+194 IMMEDIATE_moves: {}
+194 IMMEDIATE_moves: {}
+195 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+195 IMMEDIATE_moves: {}
+195 IMMEDIATE_moves: {}
+196 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+196 IMMEDIATE_moves: {}
+196 IMMEDIATE_moves: {}
+197 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+197 IMMEDIATE_moves: {}
+197 IMMEDIATE_moves: {}
+198 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+198 IMMEDIATE_moves: {}
+198 IMMEDIATE_moves: {}
+199 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+199 IMMEDIATE_moves: {}
+199 IMMEDIATE_moves: {}
+200 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+200 IMMEDIATE_moves: {}
+200 IMMEDIATE_moves: {}
+201 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+201 IMMEDIATE_moves: {}
+201 Enough_mats: True
+201: Unit error list index out of range 
+201 IMMEDIATE_moves: {}
+201 Enough_mats: True
+202 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+202 IMMEDIATE_moves: {}
+202 Enough_mats: True
+202: Unit error list index out of range 
+202 IMMEDIATE_moves: {}
+202 Enough_mats: True
+203 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+203 IMMEDIATE_moves: {}
+203 Enough_mats: True
+203: Unit error list index out of range 
+203 IMMEDIATE_moves: {}
+203 Enough_mats: True
+204 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+204 IMMEDIATE_moves: {}
+204 Enough_mats: True
+204: Unit error list index out of range 
+204 IMMEDIATE_moves: {}
+204 Enough_mats: True
+205 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+205 IMMEDIATE_moves: {}
+205 Enough_mats: True
+205: Unit error list index out of range 
+205 IMMEDIATE_moves: {}
+205 Enough_mats: True
+206 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+206 IMMEDIATE_moves: {}
+206 Enough_mats: True
+206: Unit error list index out of range 
+206 IMMEDIATE_moves: {}
+206 Enough_mats: True
+207 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+207 IMMEDIATE_moves: {}
+207 Enough_mats: True
+207: Unit error list index out of range 
+207 IMMEDIATE_moves: {}
+207 Enough_mats: True
+208 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+208 IMMEDIATE_moves: {}
+208 Enough_mats: True
+208: Unit error list index out of range 
+208 IMMEDIATE_moves: {}
+208 Enough_mats: True
+209 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+209 IMMEDIATE_moves: {}
+209 Enough_mats: True
+209: Unit error list index out of range 
+209 IMMEDIATE_moves: {}
+209 Enough_mats: True
+210 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+210 IMMEDIATE_moves: {}
+210 Enough_mats: True
+210: Unit error list index out of range 
+210 IMMEDIATE_moves: {}
+210 Enough_mats: True
+211 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+211 IMMEDIATE_moves: {}
+211 Enough_mats: True
+211: Unit error list index out of range 
+211 IMMEDIATE_moves: {}
+211 Enough_mats: True
+212 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+212 IMMEDIATE_moves: {}
+212 Enough_mats: True
+212: Unit error list index out of range 
+212 IMMEDIATE_moves: {}
+212 Enough_mats: True
+213 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+213 IMMEDIATE_moves: {}
+213 Enough_mats: True
+213: Unit error list index out of range 
+213 IMMEDIATE_moves: {}
+213 Enough_mats: True
+214 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+214 IMMEDIATE_moves: {}
+214 Enough_mats: True
+214: Unit error list index out of range 
+214 IMMEDIATE_moves: {}
+214 Enough_mats: True
+215 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+215 IMMEDIATE_moves: {}
+215 Enough_mats: True
+215: Unit error list index out of range 
+215 IMMEDIATE_moves: {}
+215 Enough_mats: True
+216 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+216 IMMEDIATE_moves: {}
+216 Enough_mats: True
+216: Unit error list index out of range 
+216 IMMEDIATE_moves: {}
+216 Enough_mats: True
+217 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+217 IMMEDIATE_moves: {}
+217 Enough_mats: True
+217: Unit error list index out of range 
+217 IMMEDIATE_moves: {}
+217 Enough_mats: True
+218 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+218 IMMEDIATE_moves: {}
+218 Enough_mats: True
+218: Unit error list index out of range 
+218 IMMEDIATE_moves: {}
+218 Enough_mats: True
+219 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+219 IMMEDIATE_moves: {}
+219 Enough_mats: True
+219: Unit error list index out of range 
+219 IMMEDIATE_moves: {}
+219 Enough_mats: True
+220 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+220 IMMEDIATE_moves: {}
+220 Enough_mats: True
+220: Unit error list index out of range 
+220 IMMEDIATE_moves: {}
+220 Enough_mats: True
+221 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+221 IMMEDIATE_moves: {}
+221 Enough_mats: True
+221: Unit error list index out of range 
+221 IMMEDIATE_moves: {}
+221 Enough_mats: True
+222 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+222 IMMEDIATE_moves: {}
+222 Enough_mats: True
+222: Unit error list index out of range 
+222 IMMEDIATE_moves: {}
+222 Enough_mats: True
+223 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+223 IMMEDIATE_moves: {}
+223 Enough_mats: True
+223: Unit error list index out of range 
+223 IMMEDIATE_moves: {}
+223 Enough_mats: True
+224 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+224 IMMEDIATE_moves: {}
+224 Enough_mats: True
+224: Unit error list index out of range 
+224 IMMEDIATE_moves: {}
+224 Enough_mats: True
+225 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+225 IMMEDIATE_moves: {}
+225 Enough_mats: True
+225: Unit error list index out of range 
+225 IMMEDIATE_moves: {}
+225 Enough_mats: True
+226 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+226 IMMEDIATE_moves: {}
+226 Enough_mats: True
+226: Unit error list index out of range 
+226 IMMEDIATE_moves: {}
+226 Enough_mats: True
+227 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+227 IMMEDIATE_moves: {}
+227 Enough_mats: True
+227: Unit error list index out of range 
+227 IMMEDIATE_moves: {}
+227 Enough_mats: True
+228 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+228 IMMEDIATE_moves: {}
+228 Enough_mats: True
+228: Unit error list index out of range 
+228 IMMEDIATE_moves: {}
+228 Enough_mats: True
+229 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+229 IMMEDIATE_moves: {}
+229 Enough_mats: True
+229: Unit error list index out of range 
+229 IMMEDIATE_moves: {}
+229 Enough_mats: True
+230 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+230 IMMEDIATE_moves: {}
+230 Enough_mats: True
+230: Unit error list index out of range 
+230 IMMEDIATE_moves: {}
+230 Enough_mats: True
+231 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+231 IMMEDIATE_moves: {}
+231 IMMEDIATE_moves: {}
+232 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+232 IMMEDIATE_moves: {}
+232 IMMEDIATE_moves: {}
+233 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+233 IMMEDIATE_moves: {}
+233 IMMEDIATE_moves: {}
+234 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+234 IMMEDIATE_moves: {}
+234 IMMEDIATE_moves: {}
+235 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+235 IMMEDIATE_moves: {}
+235 IMMEDIATE_moves: {}
+236 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+236 IMMEDIATE_moves: {}
+236 IMMEDIATE_moves: {}
+237 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+237 IMMEDIATE_moves: {}
+237 IMMEDIATE_moves: {}
+238 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+238 IMMEDIATE_moves: {}
+238 IMMEDIATE_moves: {}
+239 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+239 IMMEDIATE_moves: {}
+239 IMMEDIATE_moves: {}
+240 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+240 IMMEDIATE_moves: {}
+240 IMMEDIATE_moves: {}
+241 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+241 IMMEDIATE_moves: {}
+241 Enough_mats: True
+241: Unit error list index out of range 
+241 IMMEDIATE_moves: {}
+241 Enough_mats: True
+242 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+242 IMMEDIATE_moves: {}
+242 Enough_mats: True
+242: Unit error list index out of range 
+242 IMMEDIATE_moves: {}
+242 Enough_mats: True
+243 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+243 IMMEDIATE_moves: {}
+243 Enough_mats: True
+243: Unit error list index out of range 
+243 IMMEDIATE_moves: {}
+243 Enough_mats: True
+244 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+244 IMMEDIATE_moves: {}
+244 Enough_mats: True
+244: Unit error list index out of range 
+244 IMMEDIATE_moves: {}
+244 Enough_mats: True
+245 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+245 IMMEDIATE_moves: {}
+245 Enough_mats: True
+245: Unit error list index out of range 
+245 IMMEDIATE_moves: {}
+245 Enough_mats: True
+246 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+246 IMMEDIATE_moves: {}
+246 Enough_mats: True
+246: Unit error list index out of range 
+246 IMMEDIATE_moves: {}
+246 Enough_mats: True
+247 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+247 IMMEDIATE_moves: {}
+247 Enough_mats: True
+247: Unit error list index out of range 
+247 IMMEDIATE_moves: {}
+247 Enough_mats: True
+248 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+248 IMMEDIATE_moves: {}
+248 Enough_mats: True
+248: Unit error list index out of range 
+248 IMMEDIATE_moves: {}
+248 Enough_mats: True
+249 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+249 IMMEDIATE_moves: {}
+249 Enough_mats: True
+249: Unit error list index out of range 
+249 IMMEDIATE_moves: {}
+249 Enough_mats: True
+250 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+250 IMMEDIATE_moves: {}
+250 Enough_mats: True
+250: Unit error list index out of range 
+250 IMMEDIATE_moves: {}
+250 Enough_mats: True
+251 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+251 IMMEDIATE_moves: {}
+251 Enough_mats: True
+251: Unit error list index out of range 
+251 IMMEDIATE_moves: {}
+251 Enough_mats: True
+252 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+252 IMMEDIATE_moves: {}
+252 Enough_mats: True
+252: Unit error list index out of range 
+252 IMMEDIATE_moves: {}
+252 Enough_mats: True
+253 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+253 IMMEDIATE_moves: {}
+253 Enough_mats: True
+253: Unit error list index out of range 
+253 IMMEDIATE_moves: {}
+253 Enough_mats: True
+254 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+254 IMMEDIATE_moves: {}
+254 Enough_mats: True
+254: Unit error list index out of range 
+254 IMMEDIATE_moves: {}
+254 Enough_mats: True
+255 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+255 IMMEDIATE_moves: {}
+255 Enough_mats: True
+255: Unit error list index out of range 
+255 IMMEDIATE_moves: {}
+255 Enough_mats: True
+256 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+256 IMMEDIATE_moves: {}
+256 Enough_mats: True
+256: Unit error list index out of range 
+256 IMMEDIATE_moves: {}
+256 Enough_mats: True
+257 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+257 IMMEDIATE_moves: {}
+257 Enough_mats: True
+257: Unit error list index out of range 
+257 IMMEDIATE_moves: {}
+257 Enough_mats: True
+258 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+258 IMMEDIATE_moves: {}
+258 Enough_mats: True
+258: Unit error list index out of range 
+258 IMMEDIATE_moves: {}
+258 Enough_mats: True
+259 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+259 IMMEDIATE_moves: {}
+259 Enough_mats: True
+259: Unit error list index out of range 
+259 IMMEDIATE_moves: {}
+259 Enough_mats: True
+260 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+260 IMMEDIATE_moves: {}
+260 Enough_mats: True
+260: Unit error list index out of range 
+260 IMMEDIATE_moves: {}
+260 Enough_mats: True
+261 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+261 IMMEDIATE_moves: {}
+261 Enough_mats: True
+261: Unit error list index out of range 
+261 IMMEDIATE_moves: {}
+261 Enough_mats: True
+262 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+262 IMMEDIATE_moves: {}
+262 Enough_mats: True
+262: Unit error list index out of range 
+262 IMMEDIATE_moves: {}
+262 Enough_mats: True
+263 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+263 IMMEDIATE_moves: {}
+263 Enough_mats: True
+263: Unit error list index out of range 
+263 IMMEDIATE_moves: {}
+263 Enough_mats: True
+264 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+264 IMMEDIATE_moves: {}
+264 Enough_mats: True
+264: Unit error list index out of range 
+264 IMMEDIATE_moves: {}
+264 Enough_mats: True
+265 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+265 IMMEDIATE_moves: {}
+265 Enough_mats: True
+265: Unit error list index out of range 
+265 IMMEDIATE_moves: {}
+265 Enough_mats: True
+266 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+266 IMMEDIATE_moves: {}
+266 Enough_mats: True
+266: Unit error list index out of range 
+266 IMMEDIATE_moves: {}
+266 Enough_mats: True
+267 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+267 IMMEDIATE_moves: {}
+267 Enough_mats: True
+267: Unit error list index out of range 
+267 IMMEDIATE_moves: {}
+267 Enough_mats: True
+268 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+268 IMMEDIATE_moves: {}
+268 Enough_mats: True
+268: Unit error list index out of range 
+268 IMMEDIATE_moves: {}
+268 Enough_mats: True
+269 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+269 IMMEDIATE_moves: {}
+269 Enough_mats: True
+269: Unit error list index out of range 
+269 IMMEDIATE_moves: {}
+269 Enough_mats: True
+270 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+270 IMMEDIATE_moves: {}
+270 Enough_mats: True
+270: Unit error list index out of range 
+270 IMMEDIATE_moves: {}
+270 Enough_mats: True
+271 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+271 IMMEDIATE_moves: {}
+271 IMMEDIATE_moves: {}
+272 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+272 IMMEDIATE_moves: {}
+272 IMMEDIATE_moves: {}
+273 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+273 IMMEDIATE_moves: {}
+273 IMMEDIATE_moves: {}
+274 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+274 IMMEDIATE_moves: {}
+274 IMMEDIATE_moves: {}
+275 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+275 IMMEDIATE_moves: {}
+275 IMMEDIATE_moves: {}
+276 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+276 IMMEDIATE_moves: {}
+276 IMMEDIATE_moves: {}
+277 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+277 IMMEDIATE_moves: {}
+277 IMMEDIATE_moves: {}
+278 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+278 IMMEDIATE_moves: {}
+278 IMMEDIATE_moves: {}
+279 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+279 IMMEDIATE_moves: {}
+279 IMMEDIATE_moves: {}
+280 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+280 IMMEDIATE_moves: {}
+280 IMMEDIATE_moves: {}
+281 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+281 IMMEDIATE_moves: {}
+281 Enough_mats: True
+281: Unit error list index out of range 
+281 IMMEDIATE_moves: {}
+281 Enough_mats: True
+282 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+282 IMMEDIATE_moves: {}
+282 Enough_mats: True
+282: Unit error list index out of range 
+282 IMMEDIATE_moves: {}
+282 Enough_mats: True
+283 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+283 IMMEDIATE_moves: {}
+283 Enough_mats: True
+283: Unit error list index out of range 
+283 IMMEDIATE_moves: {}
+283 Enough_mats: True
+284 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+284 IMMEDIATE_moves: {}
+284 Enough_mats: True
+284: Unit error list index out of range 
+284 IMMEDIATE_moves: {}
+284 Enough_mats: True
+285 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+285 IMMEDIATE_moves: {}
+285 Enough_mats: True
+285: Unit error list index out of range 
+285 IMMEDIATE_moves: {}
+285 Enough_mats: True
+286 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+286 IMMEDIATE_moves: {}
+286 Enough_mats: True
+286: Unit error list index out of range 
+286 IMMEDIATE_moves: {}
+286 Enough_mats: True
+287 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+287 IMMEDIATE_moves: {}
+287 Enough_mats: True
+287: Unit error list index out of range 
+287 IMMEDIATE_moves: {}
+287 Enough_mats: True
+288 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+288 IMMEDIATE_moves: {}
+288 Enough_mats: True
+288: Unit error list index out of range 
+288 IMMEDIATE_moves: {}
+288 Enough_mats: True
+289 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+289 IMMEDIATE_moves: {}
+289 Enough_mats: True
+289: Unit error list index out of range 
+289 IMMEDIATE_moves: {}
+289 Enough_mats: True
+290 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+290 IMMEDIATE_moves: {}
+290 Enough_mats: True
+290: Unit error list index out of range 
+290 IMMEDIATE_moves: {}
+290 Enough_mats: True
+291 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+291 IMMEDIATE_moves: {}
+291 Enough_mats: True
+291: Unit error list index out of range 
+291 IMMEDIATE_moves: {}
+291 Enough_mats: True
+292 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+292 IMMEDIATE_moves: {}
+292 Enough_mats: True
+292: Unit error list index out of range 
+292 IMMEDIATE_moves: {}
+292 Enough_mats: True
+293 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+293 IMMEDIATE_moves: {}
+293 Enough_mats: True
+293: Unit error list index out of range 
+293 IMMEDIATE_moves: {}
+293 Enough_mats: True
+294 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+294 IMMEDIATE_moves: {}
+294 Enough_mats: True
+294: Unit error list index out of range 
+294 IMMEDIATE_moves: {}
+294 Enough_mats: True
+295 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+295 IMMEDIATE_moves: {}
+295 Enough_mats: True
+295: Unit error list index out of range 
+295 IMMEDIATE_moves: {}
+295 Enough_mats: True
+296 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+296 IMMEDIATE_moves: {}
+296 Enough_mats: True
+296: Unit error list index out of range 
+296 IMMEDIATE_moves: {}
+296 Enough_mats: True
+297 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+297 IMMEDIATE_moves: {}
+297 Enough_mats: True
+297: Unit error list index out of range 
+297 IMMEDIATE_moves: {}
+297 Enough_mats: True
+298 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+298 IMMEDIATE_moves: {}
+298 Enough_mats: True
+298: Unit error list index out of range 
+298 IMMEDIATE_moves: {}
+298 Enough_mats: True
+299 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+299 IMMEDIATE_moves: {}
+299 Enough_mats: True
+299: Unit error list index out of range 
+299 IMMEDIATE_moves: {}
+299 Enough_mats: True
+300 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+300 IMMEDIATE_moves: {}
+300 Enough_mats: True
+300: Unit error list index out of range 
+300 IMMEDIATE_moves: {}
+300 Enough_mats: True
+301 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+301 IMMEDIATE_moves: {}
+301 Enough_mats: True
+301: Unit error list index out of range 
+301 IMMEDIATE_moves: {}
+301 Enough_mats: True
+302 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+302 IMMEDIATE_moves: {}
+302 Enough_mats: True
+302: Unit error list index out of range 
+302 IMMEDIATE_moves: {}
+302 Enough_mats: True
+303 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+303 IMMEDIATE_moves: {}
+303 Enough_mats: True
+303: Unit error list index out of range 
+303 IMMEDIATE_moves: {}
+303 Enough_mats: True
+304 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+304 IMMEDIATE_moves: {}
+304 Enough_mats: True
+304: Unit error list index out of range 
+304 IMMEDIATE_moves: {}
+304 Enough_mats: True
+305 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+305 IMMEDIATE_moves: {}
+305 Enough_mats: True
+305: Unit error list index out of range 
+305 IMMEDIATE_moves: {}
+305 Enough_mats: True
+306 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+306 IMMEDIATE_moves: {}
+306 Enough_mats: True
+306: Unit error list index out of range 
+306 IMMEDIATE_moves: {}
+306 Enough_mats: True
+307 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+307 IMMEDIATE_moves: {}
+307 Enough_mats: True
+307: Unit error list index out of range 
+307 IMMEDIATE_moves: {}
+307 Enough_mats: True
+308 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+308 IMMEDIATE_moves: {}
+308 Enough_mats: True
+308: Unit error list index out of range 
+308 IMMEDIATE_moves: {}
+308 Enough_mats: True
+309 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+309 IMMEDIATE_moves: {}
+309 Enough_mats: True
+309: Unit error list index out of range 
+309 IMMEDIATE_moves: {}
+309 Enough_mats: True
+310 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+310 IMMEDIATE_moves: {}
+310 Enough_mats: True
+310: Unit error list index out of range 
+310 IMMEDIATE_moves: {}
+310 Enough_mats: True
+311 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+311 IMMEDIATE_moves: {}
+311 IMMEDIATE_moves: {}
+312 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+312 IMMEDIATE_moves: {}
+312 IMMEDIATE_moves: {}
+313 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+313 IMMEDIATE_moves: {}
+313 IMMEDIATE_moves: {}
+314 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+314 IMMEDIATE_moves: {}
+314 IMMEDIATE_moves: {}
+315 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+315 IMMEDIATE_moves: {}
+315 IMMEDIATE_moves: {}
+316 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+316 IMMEDIATE_moves: {}
+316 IMMEDIATE_moves: {}
+317 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+317 IMMEDIATE_moves: {}
+317 IMMEDIATE_moves: {}
+318 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+318 IMMEDIATE_moves: {}
+318 IMMEDIATE_moves: {}
+319 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+319 IMMEDIATE_moves: {}
+319 IMMEDIATE_moves: {}
+320 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+320 IMMEDIATE_moves: {}
+320 IMMEDIATE_moves: {}
+321 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+321 IMMEDIATE_moves: {}
+321 Enough_mats: True
+321: Unit error list index out of range 
+321 IMMEDIATE_moves: {}
+321 Enough_mats: True
+322 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+322 IMMEDIATE_moves: {}
+322 Enough_mats: True
+322: Unit error list index out of range 
+322 IMMEDIATE_moves: {}
+322 Enough_mats: True
+323 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+323 IMMEDIATE_moves: {}
+323 Enough_mats: True
+323: Unit error list index out of range 
+323 IMMEDIATE_moves: {}
+323 Enough_mats: True
+324 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+324 IMMEDIATE_moves: {}
+324 Enough_mats: True
+324: Unit error list index out of range 
+324 IMMEDIATE_moves: {}
+324 Enough_mats: True
+325 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+325 IMMEDIATE_moves: {}
+325 Enough_mats: True
+325: Unit error list index out of range 
+325 IMMEDIATE_moves: {}
+325 Enough_mats: True
+326 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+326 IMMEDIATE_moves: {}
+326 Enough_mats: True
+326: Unit error list index out of range 
+326 IMMEDIATE_moves: {}
+326 Enough_mats: True
+327 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+327 IMMEDIATE_moves: {}
+327 Enough_mats: True
+327: Unit error list index out of range 
+327 IMMEDIATE_moves: {}
+327 Enough_mats: True
+328 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+328 IMMEDIATE_moves: {}
+328 Enough_mats: True
+328: Unit error list index out of range 
+328 IMMEDIATE_moves: {}
+328 Enough_mats: True
+329 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+329 IMMEDIATE_moves: {}
+329 Enough_mats: True
+329: Unit error list index out of range 
+329 IMMEDIATE_moves: {}
+329 Enough_mats: True
+330 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+330 IMMEDIATE_moves: {}
+330 Enough_mats: True
+330: Unit error list index out of range 
+330 IMMEDIATE_moves: {}
+330 Enough_mats: True
+331 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+331 IMMEDIATE_moves: {}
+331 Enough_mats: True
+331: Unit error list index out of range 
+331 IMMEDIATE_moves: {}
+331 Enough_mats: True
+332 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+332 IMMEDIATE_moves: {}
+332 Enough_mats: True
+332: Unit error list index out of range 
+332 IMMEDIATE_moves: {}
+332 Enough_mats: True
+333 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+333 IMMEDIATE_moves: {}
+333 Enough_mats: True
+333: Unit error list index out of range 
+333 IMMEDIATE_moves: {}
+333 Enough_mats: True
+334 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+334 IMMEDIATE_moves: {}
+334 Enough_mats: True
+334: Unit error list index out of range 
+334 IMMEDIATE_moves: {}
+334 Enough_mats: True
+335 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+335 IMMEDIATE_moves: {}
+335 Enough_mats: True
+335: Unit error list index out of range 
+335 IMMEDIATE_moves: {}
+335 Enough_mats: True
+336 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+336 IMMEDIATE_moves: {}
+336 Enough_mats: True
+336: Unit error list index out of range 
+336 IMMEDIATE_moves: {}
+336 Enough_mats: True
+337 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+337 IMMEDIATE_moves: {}
+337 Enough_mats: True
+337: Unit error list index out of range 
+337 IMMEDIATE_moves: {}
+337 Enough_mats: True
+338 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+338 IMMEDIATE_moves: {}
+338 Enough_mats: True
+338: Unit error list index out of range 
+338 IMMEDIATE_moves: {}
+338 Enough_mats: True
+339 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+339 IMMEDIATE_moves: {}
+339 Enough_mats: True
+339: Unit error list index out of range 
+339 IMMEDIATE_moves: {}
+339 Enough_mats: True
+340 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+340 IMMEDIATE_moves: {}
+340 Enough_mats: True
+340: Unit error list index out of range 
+340 IMMEDIATE_moves: {}
+340 Enough_mats: True
+341 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+341 IMMEDIATE_moves: {}
+341 Enough_mats: True
+341: Unit error list index out of range 
+341 IMMEDIATE_moves: {}
+341 Enough_mats: True
+342 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+342 IMMEDIATE_moves: {}
+342 Enough_mats: True
+342: Unit error list index out of range 
+342 IMMEDIATE_moves: {}
+342 Enough_mats: True
+343 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+343 IMMEDIATE_moves: {}
+343 Enough_mats: True
+343: Unit error list index out of range 
+343 IMMEDIATE_moves: {}
+343 Enough_mats: True
+344 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+344 IMMEDIATE_moves: {}
+344 Enough_mats: True
+344: Unit error list index out of range 
+344 IMMEDIATE_moves: {}
+344 Enough_mats: True
+345 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+345 IMMEDIATE_moves: {}
+345 Enough_mats: True
+345: Unit error list index out of range 
+345 IMMEDIATE_moves: {}
+345 Enough_mats: True
+346 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+346 IMMEDIATE_moves: {}
+346 Enough_mats: True
+346: Unit error list index out of range 
+346 IMMEDIATE_moves: {}
+346 Enough_mats: True
+347 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+347 IMMEDIATE_moves: {}
+347 Enough_mats: True
+347: Unit error list index out of range 
+347 IMMEDIATE_moves: {}
+347 Enough_mats: True
+348 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+348 IMMEDIATE_moves: {}
+348 Enough_mats: True
+348: Unit error list index out of range 
+348 IMMEDIATE_moves: {}
+348 Enough_mats: True
+349 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+349 IMMEDIATE_moves: {}
+349 Enough_mats: True
+349: Unit error list index out of range 
+349 IMMEDIATE_moves: {}
+349 Enough_mats: True
+350 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+350 IMMEDIATE_moves: {}
+350 Enough_mats: True
+350: Unit error list index out of range 
+350 IMMEDIATE_moves: {}
+350 Enough_mats: True
+351 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+351 IMMEDIATE_moves: {}
+351 IMMEDIATE_moves: {}
+352 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+352 IMMEDIATE_moves: {}
+352 IMMEDIATE_moves: {}
+353 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+353 IMMEDIATE_moves: {}
+353 IMMEDIATE_moves: {}
+354 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+354 IMMEDIATE_moves: {}
+354 IMMEDIATE_moves: {}
+355 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+355 IMMEDIATE_moves: {}
+355 IMMEDIATE_moves: {}
+356 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+356 IMMEDIATE_moves: {}
+356 IMMEDIATE_moves: {}
+357 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+357 IMMEDIATE_moves: {}
+357 IMMEDIATE_moves: {}
+358 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+358 IMMEDIATE_moves: {}
+358 IMMEDIATE_moves: {}
+359 Worker Positions {'u_2': (22, 13), 'u_4': (23, 16), 'u_5': (23, 14), 'u_6': (22, 14)}
+359 IMMEDIATE_moves: {}
+359 IMMEDIATE_moves: {}

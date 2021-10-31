@@ -1,0 +1,15 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/Users/kevinash/LUXai/expert/agent.py", line 259, in agent
+    game_state._update(observation["updates"])
+  File "/Users/kevinash/LUXai/expert/lux/game.py", line 37, in _update
+    self.map = GameMap(self.map_width, self.map_height)
+  File "/Users/kevinash/LUXai/expert/lux/game_map.py", line 34, in __init__
+    self.map[y][x] = Cell(x, y)
+  File "/Users/kevinash/LUXai/expert/lux/game_map.py", line 17, in __init__
+    def __init__(self, x, y):
+KeyboardInterrupt

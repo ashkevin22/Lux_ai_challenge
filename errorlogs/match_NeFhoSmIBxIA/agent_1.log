@@ -1,0 +1,9 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/Users/kevinash/LUXai/expert/agent.py", line 205, in agent
+    if len(workers) / len(city_tiles) >= 0.75:
+ZeroDivisionError: division by zero

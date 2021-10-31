@@ -1,0 +1,11 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/Users/kevinash/LUXai/simple/agent.py", line 100, in agent
+    possible_empty_tile = game_state.map.get_cell(empty_near.pos.x+d[0],empty_near.pos.y+d[1])
+  File "/Users/kevinash/LUXai/simple/lux/game_map.py", line 40, in get_cell
+    return self.map[y][x]
+IndexError: list index out of range

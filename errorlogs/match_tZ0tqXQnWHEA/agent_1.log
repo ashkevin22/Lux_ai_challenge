@@ -1,0 +1,15 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/Users/kevinash/LUXai/intermediate/agent.py", line 161, in agent
+    actions.append(unit.move(unit.pos.direction_to(intended_resource)))
+  File "/Users/kevinash/LUXai/intermediate/lux/game_map.py", line 95, in direction_to
+    closest_dist = self.distance_to(target_pos)
+  File "/Users/kevinash/LUXai/intermediate/lux/game_map.py", line 62, in distance_to
+    return self - pos
+  File "/Users/kevinash/LUXai/intermediate/lux/game_map.py", line 56, in __sub__
+    return abs(pos.x - self.x) + abs(pos.y - self.y)
+AttributeError: 'Cell' object has no attribute 'x'

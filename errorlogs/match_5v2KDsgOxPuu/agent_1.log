@@ -1,0 +1,11 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/Users/kevinash/LUXai/expert/agent.py", line 299, in agent
+    move_direction = action_from_IMM(unit, observation, city_tiles)
+  File "/Users/kevinash/LUXai/expert/agent.py", line 214, in action_from_IMM
+    IMMEDIATE_moves_dict[unit.id].append('n')
+KeyError: 'u_2'
